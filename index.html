@@ -1,68 +1,340 @@
 <!-- MAIN HEAD -->
 <!-- HTML HAVE TWO DIVISIONS -->
 
+<!DOCTYPE html>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="/lib/w3.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 <html>
 	
 	<!-- WHICH ARE HEAD & BODY -->
 	<head>  <!-- HEAD START -->
 	
-	<title> IMAGES </title>
+	<title> new page </title>
+	
+	</head>
+	
+	<style>
+	<!-- TABS -->
+		body {font-family: "Lato", sans-serif;}
 
+		/* Style the tab */
+		div.tab {
+			overflow: hidden;
+			border: 1px solid #ccc;
+			background-color: black;
+		}
+
+		/* Style the buttons inside the tab */
+		div.tab button {
+			background-color: inherit;
+			float: left;
+			border: none;
+			outline: none;
+			cursor: pointer;
+			padding: 14px 16px;
+			transition: 0.3s;
+			font-size: 17px;
+		}
+
+		/* Change background color of buttons on hover */
+		div.tab button:hover {
+			background-color: #ddd;
+		}
+
+		/* Create an active/current tablink class */
+		div.tab button.active {
+			background-color: #ccc;
+		}
+
+		/* Style the tab content */
+		.tabcontent {
+			display: none;
+			padding: 6px 12px;
+			-webkit-animation: fadeEffect 1s;
+			animation: fadeEffect 1s;
+		}
+
+		/* Fade in tabs */
+		@-webkit-keyframes fadeEffect {
+			from {opacity: 0;}
+			to {opacity: 1;}
+		}
+
+		@keyframes fadeEffect {
+			from {opacity: 0;}
+			to {opacity: 1;}
+		}
+		
+		<!--SLIDER-->
+		
+		* {box-sizing:border-box}
+		body {font-family: Verdana,sans-serif;}
+		.mySlides {display:none}
+
+		/* Slideshow container */
+		.slideshow-container {
+		  max-width: 550px;
+		  position: relative;
+		  margin: auto;
+		}
+
+		/* Caption text */
+		.text {
+		  color: #f2f2f2;
+		  font-size: 15px;
+		  padding: 8px 12px;
+		  position: absolute;
+		  bottom: 8px;
+		  width: 100%;
+		  text-align: center;
+		}
+
+		/* Number text (1/6 etc) */
+		.numbertext {
+		  color: #f2f2f2;
+		  font-size: 12px;
+		  padding: 8px 12px;
+		  position: absolute;
+		  top: 0;
+		}
+
+		/* The dots/bullets/indicators */
+		.dot {
+		  height: 13px;
+		  width: 13px;
+		  margin: 0 2px;
+		  background-color: #bbb;
+		  border-radius: 50%;
+		  display: inline-block;
+		  transition: background-color 0.6s ease;
+		}
+
+		.active {
+		  background-color: #717171;
+		}
+
+		/* Fading animation */
+		.fade {
+		  -webkit-animation-name: fade;
+		  -webkit-animation-duration: 2s;
+		  animation-name: fade;
+		  animation-duration: 2s;
+		}
+
+		@-webkit-keyframes fade {
+		  from {opacity: .4} 
+		  to {opacity: 1}
+		}
+
+		@keyframes fade {
+		  from {opacity: .4} 
+		  to {opacity: 1}
+		}
+
+		/* On smaller screens, decrease text size */
+		@media only screen and (max-width: 300px) {
+		  .text {font-size: 11px}
+		}
+		.f{
+			background:yellow;
+			mso-highlight:yellow;
+			color:red;
+		}
+		
+		
+		
+	</style>
+		
 	</head> <!-- HEAD END -->
 	
-	<body bgcolor="orange"> <!-- BODY START -->
-	 <style>
-			.border
+	<body> <!-- BODY START -->
+	
+	 <center><h1 class="f"> LOGA PARAMESHWARI THUNAI </h1></center>	
+	 
+	 
+	 
+	 
+	  <!--TABS-->
+	 
+	<div class="tab">
+		  <button><font color = "white"><div class="w3-padding w3-xlarge w3-teal"><i class="fa fa-home"> HOME</i></div></font></button>
+		  <button><font color = "white"><div class="w3-padding w3-xlarge w3-teal"><i class="fa fa-image"> IMAGE</i></div></font></button>
+		  <button><font color = "white"><div class="w3-padding w3-xlarge w3-teal"><i class="fa fa-video"> VIDEO</i></div></font></button>
+		  <button><font color = "white"><div class="w3-padding w3-xlarge w3-teal"><i class="fa fa-map"> GOOGLE MAPS</i></div></font></button>
+	</div>
+
+	<!--<div id="Home" class="tabcontent">
+		  <h3>HOME<h3>
+		  <p>London is the capital city of England.</p>
+	</div>
+
+	<div id="Image" class="tabcontent">
+		  <h3>IMAGE</h3>
+		  <p>Paris is the capital of France.</p> 
+	</div>
+
+	<div id="Video" class="tabcontent">
+		  <h3>VIDEO</h3>
+		  <p>Tokyo is the capital of Japan.</p>
+	</div>
+	
+	<div id="Map" class="tabcontent">
+		  <h3>GOOGLE MAPS</h3>
+		  <p>Tokyo is the capital of Japan.</p>
+	</div>-->
+	
+	 
+	 
+	 
+	 
+	 
+	 
+	 <!--SLIDER-->
+	
+	<div class="slideshow-container">
+
+	<div class="mySlides fade">
+	  <div class="numbertext">1 / 6</div>
+	  <img src="image (33).jpg" style="width:100%">
+	  <div class="text"> God Image </div>
+	</div>
+
+	<div class="mySlides fade">
+	  <div class="numbertext">2 / 6</div>
+	  <img src="image (10).jpg" style="width:100%">
+	  <div class="text"> Temple </div>
+	</div>
+
+	<div class="mySlides fade">
+	  <div class="numbertext">3 / 6</div>
+	  <img src="image (5).jpg" style="width:100%">
+	  <div class="text"> Nakan Mar </div>
+	</div>
+	
+	<div class="mySlides fade">
+	  <div class="numbertext">4 / 6</div>
+	  <img src="image (8).jpg" style="width:100%">
+	  <div class="text"> Kanda Karnan </div>
+	</div>
+	
+	<div class="mySlides fade">
+	  <div class="numbertext">5 / 6</div>
+	  <img src="image (9).jpg" style="width:100%">
+	  <div class="text"> Temple </div>
+	</div>
+	
+	<div class="mySlides fade">
+	  <div class="numbertext">6 / 6</div>
+	  <img src="image (28).jpg" style="width:100%">
+	  <div class="text"> Muthan MUthi </div>
+	</div>
+
+	</div>
+	<br>
+
+	<div style="text-align:center">
+	  <span class="dot"></span> 
+	  <span class="dot"></span> 
+	  <span class="dot"></span>
+	  <span class="dot"></span> 
+	  <span class="dot"></span> 
+	  <span class="dot"></span>	  
+	</div>
+
+	
+	
+	
+	
+	
+			<div class="w3-container">
+		  
+
+		  <!--<div class="w3-padding w3-xlarge w3-teal">
+			<i class="fa fa-home"></i>
+			<i class="fa fa-search"></i>
+			<i class="fa fa-cloud"></i>
+			<i class="fa fa-trash"></i>
+			Welcome!
+		  </div>
+
+		  <div class="w3-padding w3-xlarge w3-text-orange">
+			<i class="fa fa-home"></i>
+			<i class="fa fa-search"></i>
+			<i class="fa fa-cloud"></i>
+			<i class="fa fa-trash"></i>
+			Welcome!
+		  </div>
+
+		  <ul class="w3-ul">
+			<li><i class="fa fa-home"></i> Home</li>
+			<li class="w3-large"><i class="fa fa-home"></i> Home</li>
+			<li class="w3-xlarge"><i class="fa fa-image"></i> Home</li>
+			<li class="w3-xxlarge"><i class="fa fa-home"></i> Home</li>
+			<li class="w3-xxxlarge"><i class="fa fa-home"></i> Home</li>
+			<li class="w3-jumbo w3-teal"><i class="fa fa-home"></i> Home</li>
+		  </ul>
+
+		  <p><button class="w3-btn w3-orange w3-xlarge">Button<i class="w3-margin-left fa fa-home"></i></button></p>
+
+		  <p><i class="w3-jumbo w3-spin fa fa-home"></i></p>
+		</div>-->
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	 <script>
+		function openCity(evt, cityName) 
+		{
+			var i, tabcontent, tablinks;
+			tabcontent = document.getElementsByClassName("tabcontent");
+			for (i = 0; i < tabcontent.length; i++) 
 			{
-				border-color:pink;
-				border-style:solid;
-				border-width:10px;
-				<!--border-radius:25px;-->
+				tabcontent[i].style.display = "none";
 			}
-			
-			.headtext
+			tablinks = document.getElementsByClassName("tablinks");
+			for (i = 0; i < tablinks.length; i++) 
 			{
-				color:black;
-				font-family:Lucida Calligraphy;
-				font-size:100;
+				tablinks[i].className = tablinks[i].className.replace(" active", "");
 			}
-			.para
-			{
-				color:black;
-				font-family:Forte;
-				font-size:100;
+			document.getElementById(cityName).style.display = "block";
+			evt.currentTarget.className += " active";
+		}
+		
+		<!--slider-->
+		var slideIndex = 0;
+		showSlides();
+
+		function showSlides() {
+			var i;
+			var slides = document.getElementsByClassName("mySlides");
+			var dots = document.getElementsByClassName("dot");
+			for (i = 0; i < slides.length; i++) {
+			   slides[i].style.display = "none";  
 			}
-		</style><!-- WIDTH == 945 -->
+			slideIndex++;
+			if (slideIndex> slides.length) {slideIndex = 1}    
+			for (i = 0; i < dots.length; i++) {
+				dots[i].className = dots[i].className.replace(" active", "");
+			}
+			slides[slideIndex-1].style.display = "block";  
+			dots[slideIndex-1].className += " active";
+			setTimeout(showSlides, 2000); // Change image every 2 seconds
+		}
 		
-		<i><b><u><h1 class="headtext" underline bold> Images </h1></u></b></i>
+	</script>
 		
-		<h1><a href="https://logaparameshwaritemple.github.io/Home-Page/"><img src ="Home Green.ico" width ="70px"  height ="70px" />Home</a>>>>><a href ="https://logaparameshwaritemple.github.io/Images/"><img src ="IP Library Icon.ico" width ="70px"  height ="70px" />Images</a></h1>
-		<hr></hr><center><h2 color= "red"> Welcome to image viewer </h2></center><hr></hr><br><br>
-		<!--M1--><img class ="border" src="image (1).JPG" alt=" God Image " width ="250px" height="400px"/>
-					<img class ="border" src="image (11).jpg" alt=" Temple Front " width ="695px" height="400px"/>
-					
-		<!--M2--><img class ="border" src="image (9).jpg" alt=" Temple " width ="520px" height="400px"/>
-					<img class ="border" src="image (32).JPG" alt=" Temple view " width ="425px" height="400px"/>
-					
-		<!--M3--><img class ="border" src="image (25).JPG" alt=" Nakan Mar (1) " width ="472px" height="400px"/>
-					<img class ="border" src="image (6).jpg" alt=" Nakan Mar (2) " width ="473px" height="400px"/>
-					
-		<!--M4--><img class ="border" src="image (4).jpg" alt=" Temple (1)" width ="308px" height="400px"/>
-					<img class ="border" src="image (8).jpg" alt=" Kandan Karnan " width ="308px" height="400px"/>
-						<img class ="border" src="image (26).JPG" alt=" Front Gate " width ="305px" height="400px"/>
-						
-		<!--M5--><img class ="border" src="image (10).jpg" alt=" Muthan Muthi " width ="695px" height="400px"/>
-					<img class ="border" src="image (1).JPG" alt=" God Image " width ="250px" height="400px"/>
-					
-		<!--M1--><img class ="border" src="image (28).JPG" alt=" Chendai " width ="250px" height="400px"/>
-					<img class ="border" src="image (41).JPG" alt=" Chendai dance " width ="695px" height="400px"/>
-		
-		<p class ="para">Coming Soon................</p>
-		
-		<a href ="https://logaparameshwaritemple.github.io/Home-Page/">
-			<button class=”btn btn-primary”>BACK</button>
-		</a>
-			
-	</body> <!-- BODY END -->
+	 
+	 
+	</body> <!-- BODY END -->			
 
 </html>
